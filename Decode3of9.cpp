@@ -4,20 +4,6 @@
 //  This assignment was to decode the 3of9 bar codes.
 //  Create a cart of shopping items and then to deciper the contents and prices.
 //
-// What's on your mind about this lab?
-//  This lab was a lot more difficult than I imagined.
-//  I spent a lot of time thinking things out and working on my plan of attack. 
-//  I tried to split my objects as much as I could and managed to get my main
-//  program to be about 15 lines long.
-//  This lab was pretty enjoyable and made me think very hard.
-//  I had to look EVEN DEEPER into the data and get better at finding patterns.
-//  With such a huge dataset I realized I must move very carefully.
-//  If a mistake is made it will be harder to catch if not detailed.
-//  Ultimately I decided to go a different route than what was planned out.
-//  Instead of a Binary-Search I used a Map to get the prices.
-//  Using a Binary-Search did not seem necessary and was not required.
-//  I also used a List of Lists for my Carts. 
-//
 // Author: Jason Yoon
 //
 // Date: 11/16/2018
@@ -128,9 +114,6 @@ unordered_map<string, shared_ptr<CompletedProduct>> helper;
 
 void printCompletedCarts();
 
-
-
-/*------------------------------------------ HERE IS MY MAIN ------------------------------------------*/
 
 int main() {
 	cout << "Running program. Stay awhile and listen..." << endl;
